@@ -1,8 +1,7 @@
-= modules pattern implementation in JavaScript image:https://travis-ci.org/daggerok/js-module-loader.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/js-module-loader"]
+= AMD modules using webpack image:https://travis-ci.org/daggerok/js-module-loader.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/js-module-loader"]
 
 [sources,bash]
 ----
 yarn -i
 yarn start
-open http://127.0.0.1:3000/
 ----
