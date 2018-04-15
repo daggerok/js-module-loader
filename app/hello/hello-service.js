@@ -1,10 +1,10 @@
 'use strict';
 
 export class HelloService {
-  constructor(registerModule) {
-    this.registerModule = registerModule;
+  constructor(helloModule) {
+    this.helloModule = helloModule;
   }
   greeting(name) {
-    return `I said: ${this.registerModule.sayHi(name)}`;
+    return `I said: ${this.helloModule.sayHi(name)}`;
   }
 }

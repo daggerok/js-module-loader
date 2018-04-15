@@ -9,8 +9,7 @@ module.exports = {
   },
   resolve: {
     modules: [
-      __dirname,
-      `${__dirname}/app`,
+      `${__dirname}/node_modules`,
     ],
   },
   mode: process.env.NODE_ENV || 'production',

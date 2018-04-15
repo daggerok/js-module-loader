@@ -20,5 +20,8 @@
     "prebuild": "eslint app",
     "build": "cross-env NODE_ENV=production webpack",
     "start": "lite-server -c ./lite-server.config.js"
+  },
+  "dependencies": {
+    "bottlejs": "1.7.0"
   }
 }

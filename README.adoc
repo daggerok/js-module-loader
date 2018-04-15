@@ -1,4 +1,4 @@
-= ES6 modules using webpack image:https://travis-ci.org/daggerok/js-module-loader.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/js-module-loader"]
+= inject ES6 classes using bottlejs image:https://travis-ci.org/daggerok/js-module-loader.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/js-module-loader"]
 
 [sources,bash]
 ----

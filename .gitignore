@@ -1,7 +1,9 @@
-.idea
+package-lock.json
 node_modules
-*.*log*
+dist
+.idea
 *.iml
 *.ipr
 *.iws
-package-lock.json
+*.*log*
+.DS_Store
