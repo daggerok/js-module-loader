@@ -1,0 +1,16 @@
+{
+  "name": "js-module-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maksim Kostromin <daggerok@gmail.com> (https://github.com/daggerok)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "9.6.5",
+    "@types/whatwg-fetch": "0.0.33",
+    "eslint": "4.19.1",
+    "lite-server": "2.3.0"
+  },
+  "scripts": {
+    "start": "lite-server --config ./bs-config.js"
+  }
+}
