@@ -3,5 +3,6 @@
 [sources,bash]
 ----
 yarn -i
+yarn build
 yarn start
 ----
