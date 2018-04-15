@@ -1,9 +1,10 @@
 'use strict';
 
-define('./hello-module', [], function RegisterModules() {
-  return {
-    sayHi: function sayHi(name) {
-      return `hola, ${name || 'Guest'}!`;
-    }
-  };
-});
+export class HelloModule {
+  constructor(defaultName) {
+    this.name = defaultName;
+  }
+  sayHi(name) {
+    return `hola, ${name || this.name}!`;
+  }
+}

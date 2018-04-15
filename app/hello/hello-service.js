@@ -1,13 +1,10 @@
 'use strict';
 
-define('./hello-service', ['./hello-module'], function RegisterModules(helloModule) {
-
-  function greeting(name) {
-    return `I said: ${helloModule.sayHi(name)}`;
+export class HelloService {
+  constructor(registerModule) {
+    this.registerModule = registerModule;
   }
-
-  return {
-    greeting,
-  };
-
-});
+  greeting(name) {
+    return `I said: ${this.registerModule.sayHi(name)}`;
+  }
+}

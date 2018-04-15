@@ -1,7 +1,8 @@
-= AMD modules using webpack image:https://travis-ci.org/daggerok/js-module-loader.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/js-module-loader"]
+= ES6 modules using webpack image:https://travis-ci.org/daggerok/js-module-loader.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/js-module-loader"]
 
 [sources,bash]
 ----
 yarn -i
+yarn build
 yarn start
 ----
